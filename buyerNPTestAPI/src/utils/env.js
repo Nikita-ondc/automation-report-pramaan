@@ -36,7 +36,7 @@ if (!BUYER_TESTING_URI) {
     process.exit(1);
 }
 
-const PW_LOGS_API = "https://dev-automation.ondc.org/report";
+const PW_LOGS_API = "https://workbench.ondc.tech/report";
 if (!PW_LOGS_API) {
     console.log("No PW_LOGS_API string. Set PW_LOGS_API environment variable");
     process.exit(1);
