@@ -48,7 +48,7 @@ if (!PW_LOGS_API_KEY) {
     process.exit(1);
 }
 
-const PRAMAAN_SELLER_TESTING_API = "https://pramaan.ondc.org/beta/preprod/testing/seller";
+const PRAMAAN_SELLER_TESTING_API = process.env['SELLER_TESTING_URI'];
 if (!PRAMAAN_SELLER_TESTING_API) {
     console.log("No PRAMAAN_SELLER_TESTING_API string. Set PRAMAAN_SELLER_TESTING_API environment variable");
     process.exit(1);
