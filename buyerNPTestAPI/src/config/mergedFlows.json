@@ -1,0 +1,29 @@
+[
+    {
+        "id": "RET_MRGD_1",
+        "type": "RETAIL_1_2_5",
+        "domain": "ONDC:RET",
+        "version": "1.2.5",
+        "flowType": "mandatory",
+        "name": "Flow 3B: Merchant Side Full Order Cancellation (RTO Flow)",
+        "description": "Merchant Side Full Order Cancellation (RTO Flow)",
+        "flow": [
+            {
+                "test": "search",
+                "action": "search"
+            },
+            {
+                "test": "select",
+                "action": "select"
+            },
+            {
+                "test": "init",
+                "action": "init"
+            },
+            {
+                "test": "confirm",
+                "action": "confirm"
+            }
+        ]
+    }
+]

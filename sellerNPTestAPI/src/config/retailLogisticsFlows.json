@@ -170,27 +170,27 @@
                 "action": "on_confirm"
             },
             {
-                "test": "on_update",
+                "test": "on_update_merchant_partial_cancel",
                 "action": "on_update"
             },
             {
-                "test": "on_status",
+                "test": "on_status_packed",
                 "action": "on_status"
             },
             {
-                "test": "on_status",
+                "test": "on_status_assign_agent",
                 "action": "on_status"
             },
             {
-                "test": "on_status",
+                "test": "on_status_pickup",
                 "action": "on_status"
             },
             {
-                "test": "on_status",
+                "test": "on_status_out_for_delivery",
                 "action": "on_status"
             },
             {
-                "test": "on_status",
+                "test": "on_status_delivered",
                 "action": "on_status"
             }
         ]
@@ -221,27 +221,27 @@
                 "action": "on_confirm"
             },
             {
-                "test": "on_cancel",
+                "test": "on_status_packed",
+                "action": "on_status"
+            },
+            {
+                "test": "on_status_assign_agent",
+                "action": "on_status"
+            },
+            {
+                "test": "on_status_pickup",
+                "action": "on_status"
+            },
+            {
+                "test": "on_status_out_for_delivery",
+                "action": "on_status"
+            },
+            {
+                "test": "on_cancel_rto_initiated",
                 "action": "on_cancel"
             },
             {
-                "test": "on_status",
-                "action": "on_status"
-            },
-            {
-                "test": "on_status",
-                "action": "on_status"
-            },
-            {
-                "test": "on_status",
-                "action": "on_status"
-            },
-            {
-                "test": "on_status",
-                "action": "on_status"
-            },
-            {
-                "test": "on_status",
+                "test": "on_status_rto_delivered",
                 "action": "on_status"
             }
         ]
@@ -272,7 +272,7 @@
                 "action": "on_confirm"
             },
             {
-                "test": "on_cancel",
+                "test": "on_cancel_merchant",
                 "action": "on_cancel"
             }
         ]
@@ -303,39 +303,39 @@
                 "action": "on_confirm"
             },
             {
-                "test": "on_status",
+                "test": "on_status_packed",
                 "action": "on_status"
             },
             {
-                "test": "on_status",
+                "test": "on_status_assign_agent",
                 "action": "on_status"
             },
             {
-                "test": "on_status",
+                "test": "on_status_pickup",
                 "action": "on_status"
             },
             {
-                "test": "on_status",
+                "test": "on_status_out_for_delivery",
                 "action": "on_status"
             },
             {
-                "test": "on_status",
+                "test": "on_status_delivered",
                 "action": "on_status"
             },
             {
-                "test": "on_update",
+                "test": "on_update_buyer_return",
                 "action": "on_update"
             },
             {
-                "test": "on_update",
+                "test": "on_update_buyer_return_approved",
                 "action": "on_update"
             },
             {
-                "test": "on_update",
+                "test": "on_update_buyer_return_picked",
                 "action": "on_update"
             },
             {
-                "test": "on_update",
+                "test": "on_update_return_delivered",
                 "action": "on_update"
             }
         ]
@@ -366,31 +366,39 @@
                 "action": "on_confirm"
             },
             {
-                "test": "on_status",
+                "test": "on_status_packed",
                 "action": "on_status"
             },
             {
-                "test": "on_status",
+                "test": "on_status_assign_agent",
                 "action": "on_status"
             },
             {
-                "test": "on_status",
+                "test": "on_status_pickup",
                 "action": "on_status"
             },
             {
-                "test": "on_status",
+                "test": "on_status_out_for_delivery",
                 "action": "on_status"
             },
             {
-                "test": "on_status",
+                "test": "on_status_delivered",
                 "action": "on_status"
             },
             {
-                "test": "on_update",
+                "test": "on_update_buyer_return",
                 "action": "on_update"
             },
             {
-                "test": "on_update",
+                "test": "on_update_buyer_return_approved",
+                "action": "on_update"
+            },
+            {
+                "test": "on_update_buyer_return_picked",
+                "action": "on_update"
+            },
+            {
+                "test": "on_update_return_delivered",
                 "action": "on_update"
             }
         ]
@@ -421,31 +429,39 @@
                 "action": "on_confirm"
             },
             {
-                "test": "on_status",
+                "test": "on_status_packed",
                 "action": "on_status"
             },
             {
-                "test": "on_status",
+                "test": "on_status_assign_agent",
                 "action": "on_status"
             },
             {
-                "test": "on_status",
+                "test": "on_status_pickup",
                 "action": "on_status"
             },
             {
-                "test": "on_status",
+                "test": "on_status_out_for_delivery",
                 "action": "on_status"
             },
             {
-                "test": "on_status",
+                "test": "on_status_delivered",
                 "action": "on_status"
             },
             {
-                "test": "on_update",
+                "test": "on_update_buyer_return",
                 "action": "on_update"
             },
             {
-                "test": "on_update",
+                "test": "on_update_buyer_return_approved",
+                "action": "on_update"
+            },
+            {
+                "test": "on_update_buyer_return_picked",
+                "action": "on_update"
+            },
+            {
+                "test": "on_update_return_delivered",
                 "action": "on_update"
             }
         ]
@@ -476,39 +492,39 @@
                 "action": "on_confirm"
             },
             {
-                "test": "on_status",
+                "test": "on_status_packed",
                 "action": "on_status"
             },
             {
-                "test": "on_status",
+                "test": "on_status_assign_agent",
                 "action": "on_status"
             },
             {
-                "test": "on_status",
+                "test": "on_status_pickup",
                 "action": "on_status"
             },
             {
-                "test": "on_status",
+                "test": "on_status_out_for_delivery",
                 "action": "on_status"
             },
             {
-                "test": "on_status",
+                "test": "on_status_delivered",
                 "action": "on_status"
             },
             {
-                "test": "on_update",
+                "test": "on_update_buyer_return",
                 "action": "on_update"
             },
             {
-                "test": "on_update",
+                "test": "on_update_buyer_return_approved",
                 "action": "on_update"
             },
             {
-                "test": "on_update",
+                "test": "on_update_buyer_return_picked",
                 "action": "on_update"
             },
             {
-                "test": "on_update",
+                "test": "on_update_return_delivered",
                 "action": "on_update"
             }
         ]
@@ -3366,27 +3382,27 @@
                 "action": "on_update"
             },
             {
-                "test": "on_cancel",
+                "test": "on_status_assign_agent",
+                "action": "on_status"
+            },
+            {
+                "test": "on_status_at_pickup",
+                "action": "on_status"
+            },
+            {
+                "test": "on_status_picked_up",
+                "action": "on_status"
+            },
+            {
+                "test": "on_status_out_for_delivery",
+                "action": "on_status"
+            },
+            {
+                "test": "on_cancel_rto_initiated",
                 "action": "on_cancel"
             },
             {
-                "test": "on_status",
-                "action": "on_status"
-            },
-            {
-                "test": "on_status",
-                "action": "on_status"
-            },
-            {
-                "test": "on_status",
-                "action": "on_status"
-            },
-            {
-                "test": "on_status",
-                "action": "on_status"
-            },
-            {
-                "test": "on_status",
+                "test": "on_status_rto_delivered",
                 "action": "on_status"
             }
         ]
@@ -3417,10 +3433,6 @@
                 "action": "on_update"
             },
             {
-                "test": "on_cancel",
-                "action": "on_cancel"
-            },
-            {
                 "test": "on_status_assign_agent",
                 "action": "on_status"
             },
@@ -3433,11 +3445,15 @@
                 "action": "on_status"
             },
             {
-                "test": "on_status_delivered",
+                "test": "on_status_out_for_delivery",
                 "action": "on_status"
             },
             {
-                "test": "on_status_cancelled",
+                "test": "on_cancel_rto_initiated",
+                "action": "on_cancel"
+            },
+            {
+                "test": "on_status_rto_delivered",
                 "action": "on_status"
             }
         ]

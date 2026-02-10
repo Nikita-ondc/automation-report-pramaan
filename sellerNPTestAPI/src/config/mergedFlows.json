@@ -1,0 +1,53 @@
+[
+    {
+        "id": "RET_MRGD_1",
+        "type": "RETAIL_1_2_5",
+        "domain": "ONDC:RET",
+        "version": "1.2.5",
+        "flowType": "mandatory",
+        "name": "Flow 3B: Merchant Side Full Order Cancellation (RTO Flow)",
+        "description": "B2C Retail Flows",
+        "flow": [
+            {
+                "test": "on_search",
+                "action": "on_search"
+            },
+            {
+                "test": "on_select",
+                "action": "on_select"
+            },
+            {
+                "test": "on_init",
+                "action": "on_init"
+            },
+            {
+                "test": "on_confirm",
+                "action": "on_confirm"
+            },
+            {
+                "test": "on_status_packed",
+                "action": "on_status"
+            },
+            {
+                "test": "on_status_assign_agent",
+                "action": "on_status"
+            },
+            {
+                "test": "on_status_pickup",
+                "action": "on_status"
+            },
+            {
+                "test": "on_status_out_for_delivery",
+                "action": "on_status"
+            },
+            {
+                "test": "on_cancel_rto_initiated",
+                "action": "on_cancel"
+            },
+            {
+                "test": "on_status_rto_delivered",
+                "action": "on_status"
+            }
+        ]
+    }
+]

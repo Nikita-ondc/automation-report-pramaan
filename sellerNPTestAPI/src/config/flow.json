@@ -6630,7 +6630,7 @@
         "action": "on_update"
       },
       {
-        "test": "on_update_return_return_delivered",
+        "test": "on_update_return_delivered",
         "action": "on_update"
       }
     ]
