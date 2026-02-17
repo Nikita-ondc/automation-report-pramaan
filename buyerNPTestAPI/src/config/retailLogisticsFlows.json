@@ -678,6 +678,10 @@
       {
         "test": "confirm",
         "action": "confirm"
+      },
+      {
+        "test": "update_buyer_replacement",
+        "action": "update"
       }
     ],
     "enhFlows": [
@@ -1170,6 +1174,18 @@
       {
         "test": "confirm",
         "action": "confirm"
+      },
+      {
+        "test": "cancel",
+        "action": "cancel"
+      },
+      {
+        "test": "cancel_forced",
+        "action": "cancel"
+      },
+      {
+        "test": "update_settlement_trail",
+        "action": "update"
       }
     ],
     "enhFlows": [
